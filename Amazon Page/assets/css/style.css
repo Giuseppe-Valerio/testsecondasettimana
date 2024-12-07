@@ -41,14 +41,16 @@ h1 {
     text-align: center;
     background-color: #f90;
     color: white;
-    padding: 20px;
+    padding: 15px;
     margin: 0;
+    border: 10px solid white;
 }
 
 .sfondo {
     background-image: url(../images/bg-image.png);
     text-align: center;
     padding: 20px 0;
+    border: 10px solid white;
 }
 
 .sfondo img {
@@ -90,7 +92,10 @@ a {
     box-sizing: border-box;
 }
 
-
+.sfondi {
+    background-color: white;
+    border: 10px solid white;
+}
 
 .fotopen {
     width: 100%;
@@ -99,6 +104,7 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 .secondo {
@@ -117,6 +123,11 @@ a {
 .secondo a {
     text-decoration: none;
     color: blue;
+}
+
+.sfondsec {
+    background-color: white;
+    border: 10px solid white;
 }
 
 .fotoult {
@@ -155,12 +166,22 @@ h3 {
 
 h3 a {
     color: white;
+  
 }
+footer {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #0a4185; 
+    color: white; 
+}
+
 
 .finale {
-    background-color: #0a4185;
-    padding: 10px 20px;
-    width: 120px;
-    height: auto;
+    margin: 0 auto; 
+    display: inline-block;
 }
 
+.finale img {
+    width: 120px; 
+    height: auto;
+}
